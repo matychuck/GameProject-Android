@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Accel</string>
+    <string name="play">Play</string>
+    <string name="ranking">Ranking</string>
+    <string name="instruction">Instructions</string>
+    <string name="back">Back</string>
+    <string name="exit">Exit</string>
+    <string name="name">Enter your nick</string>
+    <string name="error_name">This area can\'t be empty</string>
+    <string name="points">POINTS</string>
+    <string name="gameover">GAME OVER</string>
+    <string name="deleteall">Delete all</string>
+    <string name="showwholeranking">Entire ranking</string>
+    <string name="showtop5">Top 5</string>
+    <string name="howto">How to play?</string>
+    <string name="worm">Worm</string>
+    <string name="lightbulb">Lightbulb</string>
+    <string name="sign">Sign</string>
+    <string name="player">Accel</string>
+    <string name="description">You play the role of a small Accel and go through the underground world. \n\nHowever, to survive, the little mole has to eat worms. Worms are moving faster and faster over time, so Accel can bypass a maximum of three of them.\n\n The further into the darker the earth. To lighten the path, we can catch light bulbs and catch SLOW signs to slow down worms.</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Accel</string>
+    <string name="play">Jouer</string>
+    <string name="ranking">Classement</string>
+    <string name="instruction">Instructions</string>
+    <string name="back">Annuler</string>
+    <string name="exit">Sortie</string>
+    <string name="name">Donne ton nom</string>
+    <string name="error_name">Ce champ ne peut pas être vide</string>
+    <string name="points">POINTS</string>
+    <string name="gameover">JEU TERMINÉ</string>
+    <string name="deleteall">Supprimer tout</string>
+    <string name="showwholeranking">l\'ensemble du classement</string>
+    <string name="showtop5">Top 5</string>
+    <string name="howto">comment jouer?</string>
+    <string name="worm">Ver</string>
+    <string name="lightbulb">Ampoule</string>
+    <string name="sign">Signe</string>
+    <string name="player">Accel</string>
+    <string name="description">Vous jouez le rôle d\'un petit Accel et traversez le monde souterrain.\n\nCependant, pour survivre, la petite taupe doit manger des vers. Les vers se déplaçant de plus en plus rapidement, Accel peut donc en contourner trois au maximum.\n\nPlus loin dans le plus sombre de la terre. Pour alléger le chemin, nous pouvons attraper des ampoules électriques et des signaux LENT pour ralentir les vers.</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Accel</string>
+    <string name="play">Graj</string>
+    <string name="ranking">Ranking</string>
+    <string name="instruction">Instrukcje</string>
+    <string name="back">Cofnij</string>
+    <string name="exit">Wyjdź</string>
+    <string name="name">Podaj swoją nazwę</string>
+    <string name="error_name">To pole nie może być puste</string>
+    <string name="points">PUNKTY</string>
+    <string name="gameover">PRZEGRAŁEŚ</string>
+    <string name="deleteall">Usuń wszystkie</string>
+    <string name="showwholeranking">Cały ranking</string>
+    <string name="showtop5">Top 5</string>
+    <string name="description">"Wcielamy się w rolę małego Accela i przemierzamy podziemny świat.  Jednak, aby przeżyć mały kret musi zjadać robaki. Robaki poruszają się coraz szybciej z biegiem czasu, dlatego Accel może ominąć maksymalnie trzy z nich.   Im dalej w głąb ziemii tym ciemniej. Aby rozjaśnić drogę możemy łapać żarówki oraz łapać znaki SLOW, aby spowolnić robaki. "</string>
+    <string name="howto">Jak w to się gra?</string>
+    <string name="worm">Robak</string>
+    <string name="lightbulb">Żarówka</string>
+    <string name="sign">Znak</string>
+    <string name="player">Accel</string>
+</resources>

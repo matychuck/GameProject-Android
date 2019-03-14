@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/tloo">
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="99dp"
+        android:layout_marginBottom="51dp"
+        android:src="@drawable/logov3"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/button_main"
+        android:layout_marginTop="250dp"
+        android:layout_marginBottom="18dp"
+        android:text="@string/play"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:drawableStart="@android:drawable/ic_media_play"
+        android:paddingLeft="45dip"
+        android:paddingRight="90dip"
+        android:drawablePadding="20dip"/>
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/button_main"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="18dp"
+        android:text="@string/ranking"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        android:drawableStart="@android:drawable/ic_menu_agenda"
+        android:paddingLeft="45dip"
+        android:paddingRight="90dip"
+        android:drawablePadding="20dip"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/button_main"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="18dp"
+        android:text="@string/instruction"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:drawableStart="@android:drawable/ic_dialog_info"
+        android:paddingLeft="45dip"
+        android:paddingRight="90dip"
+        android:drawablePadding="20dip"/>
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/button_main"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="151dp"
+        android:text="@string/exit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        android:drawableStart="@android:drawable/ic_input_delete"
+        android:paddingLeft="45dip"
+        android:paddingRight="90dip"
+        android:drawablePadding="20dip"/>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

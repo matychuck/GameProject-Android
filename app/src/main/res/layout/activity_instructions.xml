@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InstructionsActivity">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="330dp"
+        android:layout_height="268dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="27dp"
+        android:text="@string/description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="113dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/howto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/enemy1"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/worm"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <ImageView
+        android:id="@+id/lightbulb"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/lightbulb"
+        app:layout_constraintStart_toEndOf="@+id/enemy1"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <ImageView
+        android:id="@+id/slow"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/slow"
+        app:layout_constraintStart_toEndOf="@+id/lightbulb"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <ImageView
+        android:id="@+id/player"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/mole"
+        app:layout_constraintStart_toEndOf="@+id/slow"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/worm"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enemy1" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/lightbulb"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/lightbulb" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/sign"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/slow" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="75dp"
+        android:text="@string/player"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/player"
+        app:layout_constraintVertical_bias="0.0" />
+
+</android.support.constraint.ConstraintLayout>

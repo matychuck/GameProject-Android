@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.user.roomap.MainActivity">
+    <item
+        android:id="@+id/deleteall"
+        android:title="@string/deleteall"/>
+    <item
+        android:id="@+id/showall"
+        android:title="@string/showwholeranking"/>
+
+    <item
+        android:id="@+id/showbest"
+        android:title="@string/showtop5"/>
+    <item
+        android:id="@+id/back"
+        android:title="@string/back"/>
+</menu>
